@@ -5,5 +5,8 @@ author:
   email: akkis@ou.edu
 description: "Trying things out."
 
+github:
+  is_user_page: false
+
 # Build settings
 theme: jekyll-theme-minimal
