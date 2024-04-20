@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Trying a new page
 
 ## Get to know me
