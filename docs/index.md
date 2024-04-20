@@ -2,7 +2,7 @@
 
 ## Get to know me
 
-<a href="{{ site.about }}">About me</a>
+[About me](./about.md)
 
 <ul>
 {% for post in site.posts %}
