@@ -1,8 +1,7 @@
 # Site settings
 title: Great New Blog Title
-author:
-  name: Amanda K
-  email: akkis@ou.edu
+author: Amanda K
+email: akkis@ou.edu
 description: "Trying things out."
 
 github:
