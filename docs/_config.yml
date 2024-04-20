@@ -1,0 +1,9 @@
+# Site settings
+title: Great New Blog Title
+author:
+  name: Amanda K
+  email: akkis@ou.edu
+description: "Trying things out."
+
+# Build settings
+theme: jekyll-theme-minimal
