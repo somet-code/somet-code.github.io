@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include navbar.html %}
+
 # Trying a new page
 
 ## Get to know me
