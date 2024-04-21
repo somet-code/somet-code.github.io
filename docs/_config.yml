@@ -5,6 +5,7 @@ author: Amanda K
 email: akkis@ou.edu
 baseurl: ""
 logo: /assets/img/cat.jpg
+permalink: /:title
 
 #github:
 #  is_user_page: false
