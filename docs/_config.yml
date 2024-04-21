@@ -1,12 +1,13 @@
 # Site settings
-title: Great New Blog Title
+title: "Amanda's Personal Website"
+description: "Trying things out."
 author: Amanda K
 email: akkis@ou.edu
+baseurl: ""
 logo: /assets/img/cat.jpg
-description: "Trying things out."
 
-github:
-  is_user_page: false
+#github:
+#  is_user_page: false
 
 # Build settings
 theme: jekyll-theme-minimal
