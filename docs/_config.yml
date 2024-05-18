@@ -18,12 +18,13 @@ defaults:
 
 plugins:
   - jekyll-paginate
+  - jekyll-remote-theme
 
 #github:
 #  is_user_page: false
 
 # Build settings
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
 
 # Serve settings
 detach: true
