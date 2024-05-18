@@ -1,0 +1,18 @@
+---
+title: Home
+---
+
+<h1>Trying a new page</h1>
+
+<h2>Get to know me</h2>
+
+<a href={% link about.md %}About me</a>
+
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <p>{{ post.quote | markdownify | strip_html }}</p>
+  </li>
+{% endfor %}
+</ul>

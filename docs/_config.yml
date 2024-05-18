@@ -3,12 +3,27 @@ title: "Amanda's Personal Website"
 description: "Trying things out."
 author: Amanda K
 email: akkis@ou.edu
-baseurl: ""
 logo: /assets/img/cat.jpg
 permalink: /:title
+paginate: 1
+paginate_path: "/page:num/"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-paginate
 
 #github:
 #  is_user_page: false
 
 # Build settings
 theme: jekyll-theme-minimal
+
+# Serve settings
+detach: true

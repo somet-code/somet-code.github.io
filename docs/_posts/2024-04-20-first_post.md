@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Hello World
+category: random
+quote: Hello world!
 ---
-# First post
 
 Hello world!
