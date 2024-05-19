@@ -6,7 +6,7 @@ email: akkis@ou.edu
 logo: /assets/img/cat.jpg
 permalink: /:categories/:title
 paginate: 1
-paginate_path: "/page:num/"
+paginate_path: "/blog/page:num/"
 
 defaults:
   -
