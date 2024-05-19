@@ -4,7 +4,7 @@ description: "Trying things out."
 author: Amanda K
 email: akkis@ou.edu
 logo: /assets/img/cat.jpg
-permalink: /:title
+permalink: /:categories/:title
 paginate: 1
 paginate_path: "/page:num/"
 
