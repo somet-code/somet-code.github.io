@@ -15,16 +15,24 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# GitHub settings
+is_user_page: true
+is_project_page: false
+show_downloads: false
 
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme
 
-#github:
-#  is_user_page: false
-
 # Build settings
 remote_theme: pages-themes/minimal@v0.2.0
 
 # Serve settings
-detach: true
+#detach: true
